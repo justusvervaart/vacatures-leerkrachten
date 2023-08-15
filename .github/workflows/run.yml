@@ -26,7 +26,6 @@ jobs:
         run: |
           pip install pandas requests beautifulsoup4
 
-
       - name: Run script
         run: python scrape_vacatures_leerkrachten_basisonderwijs.py
         
